@@ -1,0 +1,41 @@
+body {
+  background-color :  #fff;
+}
+
+.input {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid ;
+  border-radius: 4px;
+  margin-right : 30px;
+}
+
+#dasboardButton{
+  background-color: #35b639;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.curClassName1{
+    margin-left : 50px;
+    font-style: italic;
+}
+
+.circle {
+  margin-left : 25%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background: rgb(43, 226, 104)
+}
