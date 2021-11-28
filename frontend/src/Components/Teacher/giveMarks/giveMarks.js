@@ -53,7 +53,7 @@ export default class GiveMarks extends Component {
       {
          pastTestPrint.innerHTML += "List of Test that are yet to evaulate  " + "<br>";
          for(var index = 0; index < response.length; index++)
-             pastTestPrint.innerHTML += "<li>" + "<b>" + response[index].examName +  "</b>" + "</li>" ;
+             pastTestPrint.innerHTML += "<li>" + "<b>" + response[index].examName + " ->  " + response[index].totalMarks +  "</b>" + "</li>" ;
       }
    }
 
