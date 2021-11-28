@@ -144,7 +144,6 @@ createNewChart = (labels, data, colorArr, borderArr) => {
         pastTests.innerHTML = '';
         document.getElementById('testWisePercentage').innerHTML = '';
         document.getElementById('testWiseGrade').innerHTML = '';
-        document.getElementById('avgGrade').innerHTML = '';
         document.getElementById('avgPercentage').innerHTML = '';
         document.getElementById('totalTests').innerHTML = ' ';
         document.getElementById('totalAttendedTests').innerHTML = '';
@@ -384,11 +383,11 @@ createNewChart = (labels, data, colorArr, borderArr) => {
                <input id = 'dasboardButton' type = 'button' value = 'Submit' onClick = {this.onSubmit} />
                
                
-               <h2 id = 'avgGrade'>Overall Grade </h2>
+               
                <h2 id = 'avgPercentage'>Overall percentage </h2>
               
             
-               <h2>Overall Grade TestWise
+               <h2>Overall Grade 
                <div class = 'circle'>{this.state.avrGrade}</div>
                </h2>
                <p id = 'testWiseGrade'></p>
